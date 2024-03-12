@@ -1,0 +1,39 @@
+header{
+    background-color: aquamarine;
+    padding: 20px;
+    margin: 14px;
+    font-weight: 200;
+    font-display: 20px;
+    text-align: justify;
+}
+.introduction {
+    background-color: aliceblue;
+    padding: 20px;
+    margin: 14px;
+    
+}
+.skills {
+    padding: 25px;
+    background-color: aquamarine;
+    margin: 14px;
+    display: block;
+}
+.skills ul li{
+    padding: 3px;
+    margin-bottom: 10px;
+    border: 2px solid red;
+}
+.contact {
+    background-color:aqua;
+    padding: 20px;
+    margin: 14px;
+    
+}
+@media screen and (max-width: auto) {
+    .header, .introduction, .skills, .contact {
+        padding: 3px;
+    }
+}
+    
+
+
